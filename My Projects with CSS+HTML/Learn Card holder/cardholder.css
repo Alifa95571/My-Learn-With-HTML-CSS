@@ -1,0 +1,17 @@
+.card
+{
+    box-shadow : rgba(0, 0, 0, 0.274) 1px 8px 20px ;
+    width: 250px;
+    height: 350px;
+    transition: 0.5s;
+
+}
+.card:hover
+{
+    box-shadow : rgba(95, 10, 10, 0.616) 1px 8px 20px ;
+}
+.container
+{
+    padding: 2px 16px;
+
+}

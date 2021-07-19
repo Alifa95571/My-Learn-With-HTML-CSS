@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="HC5 cform2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Special+Elite&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <title>Creating form with css</title>
+</head>
+<body class="bg">
+<div class="divBox">
+    <h1>Contact Form</h1>
+    <form>
+     <div> 
+         <div>
+            <i class="fa fa-user icons icons1"></i>
+            <input type ="text" name = "Name" id="Name" placeholder=" Full name"> 
+           
+        </div><p>
+
+        <div>
+            <i class="fa fa-envelope-square icons icons1"></i>
+            <input type="email"  name="email" id="email" placeholder="eg.hello@contat.com">
+            
+        </div><br>
+        <Div>
+            <i class="fa fa-home icons icons1"></i>
+            <input type="text"  name ="Address" id="address" placeholder="255 JN road ,house 23,Flat 3rd">
+        </Div><br>
+        <div>
+            <i class="fa fa-phone-square icons icons1"></i>
+            <input type="tel" name ="phone" id="phone"placeholder="017XXXXXXX" pattern="[0-9]{11}">
+
+        </div>
+    
+    </div><br>
+        
+        <div>
+            <i class="fa fa-globe icons icons1"></i>
+            <select name = "country" class="divcon">
+                <option value="Bangladesh" selected>Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="America">America</option>
+                <option value="korea">Korea</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Saudia Arabia" >Saudia Arabia</option>
+                
+            </select>
+            </div><br>
+                <div>
+                    <input type="checkbox" name="chek" id="chek"><span class="acpt1"> I accpet the</span>
+                    <a href="#" target="blank" class="acpt">Terms And Condiotion</a><br><br>
+                </div><br>
+               <div>
+                   <input type = "submit">
+                </div><br>     
+        </div>
+    </form>
+</div>    
+</body>
+</html>

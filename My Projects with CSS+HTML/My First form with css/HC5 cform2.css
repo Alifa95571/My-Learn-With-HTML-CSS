@@ -1,0 +1,130 @@
+.bg
+{
+    background-image: url("bg.png");
+    height: 100%px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.divBox
+{
+    background-color: #ffffff34;
+    width: 400px;
+    border-radius: 25px;
+    padding: 17px;
+    margin-left: 400px;
+    margin-top: 70px;
+    box-shadow : rgba(36, 37, 30, 0.945) 5px 10px 20px ;
+    transform: 0.3s;
+   
+
+}
+.divBox:hover{
+    box-shadow : rgb(27, 4, 235) 1px 8px 20px ;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+input[type="email"],input[type="text"], input[type="tel"]
+{
+   width:350px;
+   border: none;
+   border-bottom: 3px rgba(18, 52, 245, 0.747) outset;
+   border-right:3px rgba(18, 33, 245, 0.747) outset;
+   border-radius: 10px;
+   height: 30px;
+   color: rgb(0, 0, 0);
+   font-family: 'Special Elite', cursive;
+   font-size: 15px;
+   font-weight: bold;
+   color: rgb(0, 0, 0);
+   padding-left: 35px;
+   box-shadow: 3px 8px 5px rgba(0, 0, 0, 0.418) ;
+   letter-spacing: 3px;
+   
+}
+.divcon
+{
+    width:390px;
+   border-bottom: 3px rgba(8, 42, 233, 0.726) outset;
+   border-right:3px rgba(12, 8, 233, 0.726) groove ;
+   border-radius: 10px;
+   height: 35px;
+   color: rgb(0, 0, 0);
+   font-family: 'Special Elite', cursive;
+   font-size: 15px;
+   font-weight: bold;
+   color: rgb(0, 0, 0);
+   padding-left: 35px;
+   box-shadow: 3px 8px 5px rgba(0, 0, 0, 0.418) ;
+   letter-spacing: 3px;
+   
+  ;
+}
+input[type ="submit"]
+{
+    border: 2px rgba(73, 73, 73, 0.384) outset;
+    background-color: rgba(49, 14, 114, 0.308);
+    border-radius: 30px;
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+   color: rgb(0, 0, 0);
+   font-family: 'Vollkorn SC', serif;
+   font-size: 13px;
+   font-weight: bold;
+   color: rgb(0, 0, 0);
+   letter-spacing: 3px;
+}
+input[type ="submit"]:hover
+{
+    background-color:rgba(0, 9, 128, 0.918);
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.452);
+    letter-spacing: 5px;
+}
+.input-container {
+    
+    width: 100%;
+   
+}
+
+.icons {
+     
+    color: rgb(17, 29, 136);
+   
+    position:absolute;
+       
+}
+.icons1
+{
+  
+  position:absolute;
+  padding-left: 10px;
+  padding-top: 7px;
+
+}
+
+.icons:hover
+{
+    opacity: 1;
+}
+h1{
+    color: rgb(6, 36, 170);
+}
+.acpt
+{
+    font-family: 'Electrolize', sans-serif;
+    color:greenyellow;
+}
+.acpt1
+{
+    font-family: 'Electrolize', sans-serif;
+    color:white;
+}
