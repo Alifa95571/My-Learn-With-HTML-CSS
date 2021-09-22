@@ -1,0 +1,225 @@
+.dot
+{
+    position: absolute;
+    top:4.5%;
+    width: 25px;
+    margin-left: 92%;
+   
+           
+}
+.avatar
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top : 3%;
+    border-radius:50%; 
+    padding-left: 95%;
+    
+        
+}
+.div1
+{
+    padding-left: 85%;
+    margin-top :0%;
+    
+    
+}
+.txt1
+{
+   position: absolute;
+   padding-top: 20px;
+   padding-right: 90%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   color: #212121;
+   text-decoration: none;
+}
+.txt1:hover
+{
+    text-decoration: underline;
+}
+.txt2
+{
+    position: absolute;
+    padding-top:0px;
+    padding-left:4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #212121;
+  
+}
+.txt2:hover
+{
+    text-decoration: underline;
+}
+.gim
+{
+    height: 140px;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 480px;
+    
+}
+
+.srcb
+{
+    position: absolute;
+    padding-left: 380px;
+    padding-top: 15px;
+    width: 15px;
+    
+}
+.mic
+{
+    position:absolute;
+    display: flex;
+    top: 42%;
+    padding-left: 930px;
+    width: 13px;    
+}
+input[type="text"]
+{
+   width: 40%;
+   padding-inline-start: 50px;
+   padding-inline-end:55px;
+   border-radius: 35px;
+   border: 3px solid;
+   outline: none;
+   font-size: 15px;
+   cursor: pointer;
+   border: 1px #c2b4b4a9 solid; 
+}
+input[type="text"]:hover
+{
+    box-shadow : #c2b4b4 2px 2px 8px ;
+}
+.src
+{
+   height:46px;
+   width: 30px;
+   margin-left: 360px;
+   margin-right: 200px;
+   border-left: yellow;
+  
+}
+.googlesearch
+{
+    margin-left: 40%;
+    margin-top: 40px;
+    width: 130px;
+    height: 35px;
+    border-radius:5px ;
+    outline: none;
+    background-color:#ececec54;
+    border :1px solid #eaf3fcfd;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 13px;
+    cursor: pointer;
+}
+.googlesearch:hover
+{
+    border: rgba(128, 128, 128, 0.411) 1px solid;
+    box-shadow: #c2b4b4 1px ;
+   
+}
+.iamlucky
+{
+    margin-left:1%;
+    margin-top: 40px;
+    width: 140px;
+    height: 35px;
+    border-radius:5px ;
+    outline: none;
+    background-color:#ececec54;
+    border :1px solid #eaf3fcfd;
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size: 13px;
+    cursor: pointer;
+}
+.iamlucky:hover
+{
+    border: rgba(128, 128, 128, 0.411) 1px solid;
+    box-shadow: #c2b4b4 1px  ;
+}
+.offerended
+{
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 44%;
+    padding-top:15px;
+    font-size: 12.7px;
+    inline-size:none;
+    text-decoration: none;
+    
+
+}
+.offerended1
+{
+    text-decoration: none;
+    font-size: 14px;
+    color: #1A0DAB;
+
+}
+.offerended1:hover
+{
+    text-decoration: underline;
+}
+.divlast1
+{
+    background-color: #F2F2F2;
+    margin-top: 10%;
+    padding-top: 25px;
+    height: 30px;
+}
+.bangladesh
+{
+    padding-left: 15px;
+}
+.divlast2
+{
+    background-color: #F2F2F2;
+    margin-top: 6%;
+    height: 100px;
+}
+footer
+{
+    margin-top: 90px;
+    background: #f2f2f2;
+    width: 100%;
+   
+}
+footer p {
+	color: rgba(0,0,0, 0.54);
+	font-size: 15px;
+    padding-top: 15px;
+    padding-left: 35px;
+    font-weight: lighter;
+	border: 1px solid #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a {
+	color: #5f6368;
+	display: inline-block;
+	padding: 18px;
+	font-size: 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+.links
+{
+    border-top: 1px solid #ddd;
+	display: flex;
+}
+
+.link1
+{
+    padding-left: 18.7px;
+	flex: 1;
+}
+.link2 {
+	padding-right: 18.7px;
+}
